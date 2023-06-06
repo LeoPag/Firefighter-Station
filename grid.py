@@ -60,7 +60,7 @@ class GridGUI:
         Draw minimizers
         """
         self.draw_point(self.centroid[0], self.centroid[1], "red")
-        self.draw_point(self.geometric_median[0], self.geometric_median[1], "blue")
+        self.draw_point(self.geometric_median[0], self.geometric_median[1], "green")
         #self.root.destroy()
     """
     Draw points - The third argument defines the colour:

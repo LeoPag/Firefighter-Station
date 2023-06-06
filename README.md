@@ -18,4 +18,4 @@ We need to compute it with numerical methods.
 Here we apply an iterative gradient descent optimization to obtain a close enough estimate of the geometric_median.
 
 
-In the pictures, the black dots represent the houses, the red dot is the position to solve 1), while the blue dot is the position to solve 2).
+In the pictures, the black dots represent the houses, the red dot is the position to solve 1), while the greed marks the position to solve 2).
