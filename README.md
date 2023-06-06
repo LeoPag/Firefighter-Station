@@ -20,9 +20,9 @@ Here we apply an iterative gradient descent optimization to obtain a close enoug
 
 In the pictures, the black dots represent the houses, the red dot is the position to solve 1), while the green dot marks the position to solve 2).
 
+As we see, the minimization of the SSE results in the outliers (furthest points) having a bigger impact on the final position. After all, in case of a fire, we do not want to leave anybody too much behind. 
+
 <img align="right" width="300" src="Images/image1.png">
 <img align="right" width="300" src="Images/image2.png">
 <img align="right" width="300" src="Images/image3.png">
-
-As we see, the minimization of the SSE results in the outliers (furthest points) having a bigger impact on the final position. After all, in case of a fire, we do not want to leave anybody too much behind. 
 
