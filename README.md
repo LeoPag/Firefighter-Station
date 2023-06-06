@@ -22,7 +22,7 @@ In the pictures, the black dots represent the houses, the red dot is the positio
 
 As we see, the minimization of the SSE results in the outliers (furthest points) having a bigger impact on the final position. After all, in case of a fire, we do not want to leave anybody too much behind. 
 
-<img align="right" width="300" src="Images/image1.png">
-<img align="right" width="300" src="Images/image2.png">
-<img align="right" width="300" src="Images/image3.png">
+<img align="left" width="250" src="Images/image1.png">
+<img align="left" width="250" src="Images/image2.png">
+<img align="left" width="250" src="Images/image3.png">
 
