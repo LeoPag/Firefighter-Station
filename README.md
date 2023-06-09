@@ -15,12 +15,12 @@ This project allows you to mark the houses on a 2D plane. It will compute the tw
 2) To minimize the SAE (sum of absolute errors), we have to compute the geometric median of the coordinates (this is the statistical median, in case of 1D coordinates).
 Unfortunately, the computation of the geometric median does not have a closed form solution.
 We need to compute it with numerical methods.
-Here we apply an iterative gradient descent optimization to obtain a close enough estimate of the geometric_median.
+Here we apply an iterative gradient descent optimization to obtain a close enough estimate of the geometric median.
 
 
 In the pictures, the black dots represent the houses, the red dot is the position to solve 1), while the green dot marks the position to solve 2).
 
-As we see, the minimization of the SSE results in the outliers (furthest points) having a bigger impact on the final position. After all, in case of a fire, we do not want to leave anybody too much behind. 
+As we see, the minimization of the SSE results in the outliers (furthest points) having a bigger impact on the final position. After all, in case of a fire, we do not want to leave anybody behind. 
 
 <img align="left" width="250" src="Images/image1.png">
 <img align="left" width="250" src="Images/image2.png">
